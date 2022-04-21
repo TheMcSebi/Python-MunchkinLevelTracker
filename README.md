@@ -39,7 +39,23 @@ or
 
 ## Screenshots
 
-_Coming soon_
+### Main menu while entering player names
+
+![image](https://user-images.githubusercontent.com/1323131/164507094-0754f855-89b8-4ff3-81b5-af8ec8079367.png)
+
+### Menu for loading previously played games
+
+![image](https://user-images.githubusercontent.com/1323131/164507323-7a4ef7dd-91ab-4181-b3c3-be7db2f27063.png)
+
+### In game screen
+
+![image](https://user-images.githubusercontent.com/1323131/164507552-a2a04d07-9538-4176-9854-4b7605bd2b96.png)
+
+### Statistics screen
+
+![image](https://user-images.githubusercontent.com/1323131/164508457-4d6ba036-e11e-460f-8ead-fb5a93be05b3.png)
+
+The numbers below are in minutes
 
 ## How to build
 
@@ -48,6 +64,10 @@ For bundeling the scripts as exe, the python library `pyinstaller` is required, 
 `pip install pyinstaller`
 
 Run `pyinstaller run.spec` to build a single exe file inside a subdirectory called `dist`
+
+## Todos
+
+An undo button to prevent oneself from messing up the statistics in the end..
 
 ## License
 
