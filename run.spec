@@ -8,7 +8,7 @@ a = Analysis(
     ['run.pyw'],
     pathex=[],
     binaries=[],
-    datas=[('assets', 'assets')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
