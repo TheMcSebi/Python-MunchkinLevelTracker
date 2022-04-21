@@ -62,8 +62,8 @@ class Game:
             
             # name, +, - and score
             self.g.blit_centered(FONT_LG.render(p["name"], self.aa, self.g.player_colors[p["num"]]), (tpos, self.g.h//2 - self.g.h//6))
-            self.g.blit_centered(FONT_XL.render("+", self.aa, color), (tpos, self.g.h//2 - self.g.h//3))
-            self.g.blit_centered(FONT_XL.render("-", self.aa, color), (tpos, self.g.h//2 + self.g.h//3))
+            self.g.blit_centered(FONT_XL.render("+", self.aa, WHITE), (tpos, self.g.h//2 - self.g.h//3))
+            self.g.blit_centered(FONT_XL.render("-", self.aa, WHITE), (tpos, self.g.h//2 + self.g.h//3))
             self.g.blit_centered(FONT_XL.render(str(p["score"]), self.aa, color), (tpos, self.g.h//2))
         
         # game timer
